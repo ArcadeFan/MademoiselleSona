@@ -19,7 +19,8 @@ height: 60%;
   border: 2px solid Black;
 }
 #info{
-padding-left: 10px;
+padding-top: 2%;
+padding-left: 2%;
 border: 5px solid Black;
 width: 93.5%;
 height: 46%;
@@ -40,9 +41,9 @@ width: 100%;
 }
 .title
 {
-
-top: 1%;
-left: 11%;
+position: absolute;
+top: 2%;
+left: 8%;
 background-color: white;
 }
 .titleS
@@ -67,8 +68,8 @@ overflow: hidden;
 padding-left: 10px;
 
 border: 5px solid Black;
-height:42%;
-width: 93.5%;
+height:46%;
+width: 93%;
 float:left;
 overflow: hidden;
 
