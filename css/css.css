@@ -6,22 +6,64 @@ body,html{
 
   padding: 0 2rem;
   margin: 0 2rem;
- background-image: url("img/BG_Body.jpg");
+ 
 }
-#info {
 
-width: 20%;
-
-  top: 0;
+#containerAll
+{
+width: 40%;
+height: 60%;
+  top: 5px;
   padding: 5px;
-  background-color: White;
-  border: 5px solid Black;
+ 
+  border: 2px solid Black;
 }
+#info{
+border: 5px solid Black;
+width: 15%;
+height: 29%;
 
+
+float:left;
+overflow: hidden;
+}
+#container
+{
+
+width: 100%;
+}
 .title
 {
-position: absolute;
+
 top: 1%;
 left: 11%;
 background-color: white;
+}
+.titleS
+{
+position: absolute;
+top: 1%;
+left: 32%;
+background-color: white;
+}
+#scroll
+{
+padding-left: 10px;
+position: absolute;
+border: 5px solid Black;
+height:276px;
+width: 200px;
+float:left;
+overflow: hidden;
+
+}#infoD
+{
+padding-left: 10px;
+
+border: 5px solid Black;
+height:276px;
+width: 200px;
+float:left;
+overflow: hidden;
+
 }
