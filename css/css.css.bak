@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+      title="Wrap Long Lines">
+  </head>
+  <body>
+    <pre>
+body,html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Press Start 2P', cursive;
+
+  padding: 0 2rem;
+  margin: 0 2rem;
+ 
+}
+
+#containerAll
+{
+width: 40%;
+height: 60%;
+  top: 5px;
+  padding: 5px;
+ 
+  border: 2px solid Black;
+}
+#info{
+border: 5px solid Black;
+width: 15%;
+height: 29%;
+
+
+float:left;
+overflow: hidden;
+}<br>#mIzq{
+border: 5px solid Black;
+width: 15%;
+height: 29%;
+
+
+float:left;
+overflow: hidden;
+}
+#container
+{
+
+width: 100%;
+}
+.title
+{
+
+top: 1%;
+left: 11%;
+background-color: white;
+}
+.titleS
+{
+position: absolute;
+top: 1%;
+left: 32%;
+background-color: white;
+}
+#scroll
+{
+padding-left: 10px;
+position: absolute;
+border: 5px solid Black;
+height:276px;
+width: 200px;
+float:left;
+overflow: hidden;
+
+}#infoD
+{
+padding-left: 10px;
+
+border: 5px solid Black;
+height:276px;
+width: 200px;
+float:left;
+overflow: hidden;
+
+}</pre>
+  </body>
+</html>

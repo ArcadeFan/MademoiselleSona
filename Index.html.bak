@@ -10,7 +10,7 @@
     <br>
     <div id="containerAll">
       
-      <div id="mIzq">
+      <div>
         <p class="title">Info</p>
         <div id="info"> <img src="img/Sona-Portrait.png"> <br>
           Name: Sona<br>
