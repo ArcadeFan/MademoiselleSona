@@ -3,51 +3,49 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=windows-1252">
   </head>
-  <body>
+  <body> 
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
     <br>
     <br>
     <div id="containerAll">
-      <div id="mIzq">
-       
-        <div id="info">
+      
+        
+        <div id="mIzq">
+          <div id="info">
             <p class="title">Info</p>
-          <img src="img/Sona-Portrait.png"> <br>
-         
-          Name: Sona<br>
-          <br>
-          Age: 26<br>
-          
+            <img src="img/Sona-Portrait.png"> <br>
+            Name: Sona<br>
+            <br>
+            Age: 26<br>
+          </div>
+          <div id="infoD"> <br>
+            VisualStudio<br>
+            <br>
+            Unity<br>
+            <br>
+            BlockDeNotas<br>
+          </div>
         </div>
-        <br>
-        <div id="infoD"> <br>
-          VisualStudio<br>
-          <br>
-          Unity<br>
-          <br>
-          BlockDeNotas<br>
+        <div id="mDer">
+          <p class="titleS">Skills</p>
+          <div id="scroll"> <br>
+            C++/C#<br>
+            <br>
+            Java<br>
+            <br>
+            Javascript<br>
+            <br>
+            jQuery<br>
+            <br>
+            SQL<br>
+            <br>
+            PHP<br>
+            <br>
+            HTML/CSS<br>
+          </div>
         </div>
-      </div>
-      <div>
-        <p class="titleS">Skills</p>
-        <div id="scroll"> <br>
-          C++/C#<br>
-          <br>
-          Java<br>
-          <br>
-          Javascript<br>
-          <br>
-          jQuery<br>
-          <br>
-          SQL<br>
-          <br>
-          PHP<br>
-          <br>
-          HTML/CSS<br>
-        </div>
-      </div>
+      
     </div>
-    
   </body>
 </html>
