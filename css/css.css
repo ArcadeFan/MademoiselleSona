@@ -37,14 +37,21 @@ width: 100%;
 {
 position: absolute;
 top: 1%;
-left: 6%;
+left: 5.3%;
 background-color: white;
 }
 .titleS
 {
 position: absolute;
 top: 1%;
-left: 19%;
+left: 18.3%;
+background-color: white;
+}
+.titleI
+{
+position: absolute;
+top: 23%;
+left: 5.3%;
 background-color: white;
 }
 #scroll

@@ -19,7 +19,9 @@
             <br>
             Age: 26<br>
           </div>
-          <div id="infoD"> <br>
+          <div id="infoD"> 
+            <p class="titleI">Inventory</p>
+            <br>
             VisualStudio<br>
             <br>
             Unity<br>
