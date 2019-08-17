@@ -2,47 +2,63 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <body> 
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="css/css.css" rel="stylesheet">
+    <br>
+    <br>
     
-    <br>
-    <br>
-    <div id="containerAll">
-      
-        
-        <div id="mIzq">
-          <div id="info">
-            <p class="title">Info</p>
-            <img src="img/Sona-Portrait.png">
-            <br>Name: Sona<br>
-            <br>Age: 26<br>
-          </div>
-          <div id="infoD"> 
-            <p class="titleI">Inventory</p>
-            <br>VisualStudio<br>
-            <br>Unity<br>
-            <br>BlockDeNotas<br>
-          </div>
+    <div id="showmenu"><img src="img/MenuIcon.png"></div>
+    
+    <div id="containerAll" class="menu" style="display: none;">
+      <div id="mIzq">
+        <div id="info">
+          <p class="title">Info</p>
+          <img src="img/Sona-Portrait.png"> <br>
+          Name: Sona<br>
+          <br>
+          Age: 26<br>
         </div>
-        <div id="mDer">
-          <p class="titleS">Skills</p>
-          <div id="scroll">
-            <br class="F0"><img class="icon" src="img/SelectI.jpg">C++/C#</br>
-						<br class="F1">Java</br>
-            <br class="F2">JavaScript</br>
-            <br class="F3">Jquery</br>
-            <br class="F4">SQL</br>
-            <br class="F5">PHP</br>
-            <br class="F6">HTML/CSS</br>
-
-   					       
-          </div>
+        <div id="infoD">
+          <p class="titleI">Inventory</p>
+          <br>
+          VisualStudio<br>
+          <br>
+          Unity<br>
+          <br>
+          BlockDeNotas<br>
         </div>
+      </div>
+      <div id="mDer">
+        <p class="titleS">Skills</p>
+        <div id="scroll"> <br class="F0">
+          <img class="icon" src="img/SelectI.jpg">C++/C#<br>
+          <br class="F1">
+          Java<br>
+          <br class="F2">
+          JavaScript<br>
+          <br class="F3">
+          Jquery<br>
+          <br class="F4">
+          SQL<br>
+          <br class="F5">
+          PHP<br>
+          <br class="F6">
+          HTML/CSS<br>
+        </div>
+      </div>
       
-    <script>
+      </div>
+      <div>
+        <img src="img/BanerHome.jpg">
+      </div>
+     
+      
+    </script>
+      
+      <script>
 $( document ).ready(function() {
 var icon = $( ".icon" );
   //$("#scroll" ).append("test");
@@ -92,8 +108,10 @@ setInterval(function(){
 }, 1000);
 runIt();
 });
-</script>
-      
+        
+        $('#showmenu').click(function() {
+                $('.menu').slideToggle("fast");
+        });
+</script> </div>
   </body>
-
 </html>
