@@ -54,7 +54,9 @@
       <div>
         <img src="img/BanerHome.jpg">
       </div>
-    
+     
+      
+    </script>
       
       <script>
 $( document ).ready(function() {

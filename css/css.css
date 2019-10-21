@@ -1,0 +1,116 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Press Start 2P', cursive;
+  
+ background-image: url("../img/BgPage.jpg");
+ background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#containerAll
+{
+ position: absolute;
+width: 42%;
+height: 50%;
+top: 76px;
+left: 82px;
+padding: 5px;
+border: 4px solid Black;
+background-color: white;
+}
+#info{
+height: 50%;
+padding-top: 2%;
+padding-left: 2%;
+border: 5px solid Black;
+background-color: white;
+overflow: hidden;
+margin-bottom: 10px;
+}
+#mIzq{
+width: 50%;
+height: 100%;
+overflow: hidden;
+float: left;
+}
+#container
+{
+width: 100%;
+}
+.title
+{
+position: absolute;
+top: -3%;
+left: 2.3%;
+background-color: white;
+}
+.titleS
+{
+position: absolute;
+top: -3%;
+left: 53.3%;
+background-color: white;
+}
+.titleI
+{
+position: absolute;
+top: 51%;
+left: 2.3%;
+background-color: white;
+}
+#scroll
+{
+background-color: white;
+padding-left: 20px;
+
+border: 5px solid Black;
+height:98%;
+width: 89%;
+float:left;
+overflow: hidden;
+
+}#infoD
+{
+height: 41%;
+padding-top: 2%;
+padding-left: 2%;
+border: 5px solid Black;
+background-color: white;
+overflow: hidden;
+margin-bottom: 10px;
+}
+#mDer{
+float:right;
+width: 48%;
+height: 99.5%;
+overflow: hidden;
+margin-left: 10px;
+}
+.test {
+  width: 10px;
+  height: 10px;
+  background: orange;
+  float: left;
+}
+.icon
+{
+
+width: 10%;
+}
+#showmenu
+{
+
+ position: absolute;
+  
+  top: 7px;
+  left: 8px;
+z-index: 1
+}
+
+#showmenu img
+{
+ width: 14%;
+  height: 14%;
+}
