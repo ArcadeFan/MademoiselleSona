@@ -6,13 +6,14 @@
     <link rel="stylesheet" type="text/css" href="css/css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
     <style> 
 				
 		/* Media Query for Tablets Ipads portrait mode */ 
 		@media (min-width: 768px) and (max-width: 1024px){ 
 			body { 
-				background-color: blue;
+				background-color:  #103464;
         
 			} 
       #menu,#content,#contentD
@@ -31,7 +32,7 @@
         font-family: "Bebas Neue", Arial; 
         margin:0;
 			} 
-      #menuMovile 
+      #menuM,#contentM,#contentDM
       {
   		display:none;
         
@@ -40,68 +41,45 @@
 		} 
 	</style>
   </head>
-  <body style="text-align:center;">
-    <div id="menu"> <img src="img/LogoE-1.png"> <button id="btnI">Inicio</button>
-      <button id="btnN">Nosotros</button> <button id="btnS">Servicios</button>
-      Contacto </div>
-    <div id="menuMovile"> <img src="img/LogoE-1.png"> </div>
+  <body>
+    <div id="menu"> <img id="btnI" src="img/LogoE-1.png"> <button id="btnI">INICIO</button>
+      <button id="btnN">NOSOTROS</button> <button id="btnS">SERVICIOS</button>
+      <button id="btnC">CONTACTO</button>
+      </div>
+    
     <div id="content">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"><br>
-          </li>
-          <li data-target="#myCarousel" data-slide-to="1"><br>
-          </li>
-          <li data-target="#myCarousel" data-slide-to="2"><br>
-          </li>
-          <li data-target="#myCarousel" data-slide-to="3"><br>
-          </li>
-          <li data-target="#myCarousel" data-slide-to="4"><br>
-          </li>
-          <li data-target="#myCarousel" data-slide-to="5"><br>
-          </li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active"> <img src="img/AdobeStock_95931896.PNG">
-            <div class="carousel-caption">
-              <h3>Contables</h3>
-            </div>
+      <div class="Carousel">
+        <div>
+          <div class="textCD">
+            <div class="insideT" id="center">CONTABLES</div>
           </div>
-          <div class="item"> <img src="img/AdobeStock_198031973.png">
-            <div class="carousel-caption">
-              <h3>Asesoria Patrimonial </h3>
-            </div>
+          <img src="img/AdobeStock_95931896.png"></div>
+        <div>
+          <div class="textCD">
+            <div class="insideT" id="centerD">ASESORÍA PATRIMONIAL</div>
           </div>
-          <div class="item"> <img src="img/AdobeStock_203590006.png">
-            <div class="carousel-caption">
-              <h3>Fideicomisos</h3>
-            </div>
+          <img src="img/AdobeStock_198031973.png"> </div>
+        <div>
+          <div class="textCD">
+            <div class="insideT" id="center">FIDEICOMISOS</div>
           </div>
-          <div class="item"> <img src="img/AdobeStock_143965761.png">
-            <div class="carousel-caption">
-              <h3>Derecho Fiscal y Asesoria</h3>
-            </div>
+          <img src="img/AdobeStock_203590006.png"></div>
+        <div>
+          <div class="textCD">
+            <div class="insideT" id="centerD">DERECHO FISCAL Y ASESORÍA</div>
           </div>
-          <div class="item"> <img src="img/AdobeStock_93328664.png">
-            <div class="carousel-caption">
-              <h3>Derecho Laboral</h3>
-            </div>
+          <img src="img/AdobeStock_143965761.png"></div>
+        <div>
+          <div class="textCD">
+            <div class="insideT" id="center">DERECHO LABORAL</div>
           </div>
-          <div class="item"> <img src="img/AdobeStock_196632447.png">
-            <div class="carousel-caption">
-              <h3>Derecho Constitucional</h3>
-            </div>
+          <img src="img/AdobeStock_93328664.png"></div>
+        <div>
+          <div class="textCD">
+            <div class="insideT" id="center">DERECHO CONSTITUCIONAL</div>
           </div>
-        </div>
-        <!-- Left and right controls --> <a class="left carousel-control" href="#myCarousel"
-
-          data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span> </a> <a class="right carousel-control"
-
-          href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span> </a> </div>
+          <img src="img/AdobeStock_196632447.png"></div>
+      </div>
     </div>
     <div id="contentD">
       <div id="CDL"> <img src="img/LogoE-2.png"> </div>
@@ -112,7 +90,103 @@
           No.104, Plazuelas del Fresno. San Pedro Cholula, Pue. CP. 72775.</p>
       </div>
     </div>
+    
+    <div id="menuM"> <img id="showmenu" src="img/menu_Icon.png"><img src="img/LogoE-1.png"> </div>
+    <div class='deploid' style="display: none;" >
+      
+      <button id="btnIM">INICIO</button>
+      <button id="btnNM">NOSOTROS</button>
+      <button id="btnSM">SERVICIOS</button>
+      <button id="btnCM">CONTACTO</button>
+      
+    </div>
+    <div id="contentM">
+      
+       <div class="CarouselM">
+        <div>
+          <div class="textCDM">
+            <div class="insideTM" id="centerCM"><div class='textIC'>CONTABLES</div></div>
+          </div>
+          <img src="img/AdobeStock_-16.png"></div>
+        <div>
+          <div class="textCDM">
+            <div class="insideTM" id="centerAM"><div class='textIAP'>ASESORÍA PATRIMONIAL</div></div>
+          </div>
+          <img src="img/AdobeStock_-20.png"> 
+         </div>
+        <div>
+          <div class="textCDM">
+            <div class="insideTM" id="centerFM"><div class='textIF'>FIDEICOMISOS</div></div>
+          </div>
+          <img src="img/AdobeStock_-24.png"></div>
+        <div>
+          <div class="textCDM">
+            <div class="insideTM" id="centerDM"><div class='textIDFA'>DERECHO FISCAL Y ASESORÍA</div></div>
+          </div>
+          <img src="img/AdobeStock_-18.png"></div>
+        <div>
+          <div class="textCDM">
+            <div class="insideTM" id="centerDLM"><div class='textIDL'>DERECHO LABORAL</div></div>
+          </div>
+          <img src="img/AdobeStock_-22.png"></div>
+        <div>
+          <div class="textCDM">
+            <div class="insideTM" id="centerDCM"><div class='textIDC'>DERECHO CONSTITUCIONAL</div></div>
+          </div>
+          <img src="img/AdobeStock_-26.png"></div>
+         
+      </div>
+      
+    </div>
+    <div id="contentDM">
+      <div id="CDLM"> <img class='logoDM' src="img/LogoE-2.png"> </div>
+      <div id="CDRM">
+        <p> <img src="img/telephone-1.png"> +52(222)2571532</p>
+        <p><img src="img/asset-1.png"> contacto@e1ns.com.mx</p>
+        <p><img src="img/asset-2.png"> Camino Real a Momoxpan No.1622. Torre B
+          No.104, Plazuelas del Fresno. San Pedro Cholula, Pue. CP. 72775.</p>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script>
+      
+      
+      
+       $('#showmenu').click(function() {
+                $('.deploid').slideToggle("fast");
+        });
+           $('.Carousel').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  infinite: true,
+	dots: true,
+	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 3000,
+  pauseOnHover:false,
+	
+});
+    
+      
+      
+ $('.CarouselM').slick({
+  slidesToShow: 1,
+		slidesToScroll: 1,
+        mobileFirst: true,
+        arrows: false,
+        dots: true,
+   mobileFirst: true,
+        
+});
+      
+     
+      
+      
+      
+$(document).ready(function(){ 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -125,25 +199,72 @@ function scrollFunction() {
   }
 }
     
-      
-      $(document).ready(function(){  
-    $("#btnI").click(function(){
+
+   
+$("#btnI").click(function(){
       
       $( "#content" ).empty();
-        $("#content").append("<div id='myCarousel' class='carousel slide' data-ride='carousel'><ol class='carousel-indicators'><li data-target='#myCarousel' data-slide-to='0' class='active'></li><li data-target='#myCarousel' data-slide-to='1'></li><li data-target='#myCarousel' data-slide-to='2'></li><li data-target='#myCarousel' data-slide-to='3'></li><li data-target='#myCarousel' data-slide-to='4'></li><li data-target='#myCarousel' data-slide-to='5'></li></ol><div class='carousel-inner'><div class='item active'><img src='img/AdobeStock_95931896.PNG'><div class='carousel-caption'><h3>Contables</h3></div></div><div class='item'><img src='img/AdobeStock_198031973.png'><div class='carousel-caption'><h3>Asesoria Patrimonial	</h3></div></div><div class='item'><img src='img/AdobeStock_203590006.png'><div class='carousel-caption'><h3>Fideicomisos</h3></div></div><div class='item'><img src='img/AdobeStock_143965761.png'><div class='carousel-caption'><h3>Derecho Fiscal y Asesoria</h3></div></div><div class='item'><img src='img/AdobeStock_93328664.png'><div class='carousel-caption'><h3>Derecho Laboral</h3></div></div><div class='item'><img src='img/AdobeStock_196632447.png'><div class='carousel-caption'><h3>Derecho Constitucional</h3></div></div></div><a class='left carousel-control' href='#myCarousel' data-slide='prev'><span class='glyphicon glyphicon-chevron-left'></span><span class='sr-only'>Previous</span></a><a class='right carousel-control' href='#myCarousel' data-slide='next'><span class='glyphicon glyphicon-chevron-right'></span><span class='sr-only'>Next</span></a></div>").hide().fadeIn(999);
-
+        //$("#content").append("<div id='myCarousel' class='carousel slide' data-ride='carousel'><ol class='carousel-indicators'><li data-target='#myCarousel' data-slide-to='0' class='active'></li><li data-target='#myCarousel' data-slide-to='1'></li><li data-target='#myCarousel' data-slide-to='2'></li><li data-target='#myCarousel' data-slide-to='3'></li><li data-target='#myCarousel' data-slide-to='4'></li><li data-target='#myCarousel' data-slide-to='5'></li></ol><div class='carousel-inner'><div class='item active'><img src='img/AdobeStock_95931896.PNG'><div class='carousel-caption'><h3>Contables</h3></div></div><div class='item'><img src='img/AdobeStock_198031973.png'><div class='carousel-caption'><h3>Asesoria Patrimonial	</h3></div></div><div class='item'><img src='img/AdobeStock_203590006.png'><div class='carousel-caption'><h3>Fideicomisos</h3></div></div><div class='item'><img src='img/AdobeStock_143965761.png'><div class='carousel-caption'><h3>Derecho Fiscal y Asesoria</h3></div></div><div class='item'><img src='img/AdobeStock_93328664.png'><div class='carousel-caption'><h3>Derecho Laboral</h3></div></div><div class='item'><img src='img/AdobeStock_196632447.png'><div class='carousel-caption'><h3>Derecho Constitucional</h3></div></div></div><a class='left carousel-control' href='#myCarousel' data-slide='prev'><span class='glyphicon glyphicon-chevron-left'></span><span class='sr-only'>Previous</span></a><a class='right carousel-control' href='#myCarousel' data-slide='next'><span class='glyphicon glyphicon-chevron-right'></span><span class='sr-only'>Next</span></a></div>").hide().fadeIn(999);
+        $("#content").append("<div class='Carousel'><div><div class='textCD'><div class='insideT' id='center'>CONTABLES</div></div><img src='img/AdobeStock_95931896.png'></div><div><div class='textCD'><div class='insideT' id='centerD'>ASESORÍA PATRIMONIAL</div></div><img src='img/AdobeStock_198031973.png'></div><div><div class='textCD'><div class='insideT' id='center'>FIDEICOMISOS</div></div><img src='img/AdobeStock_203590006.png'></div><div><div class='textCD'><div class='insideT' id='centerD'>DERECHO FISCAL Y ASESORÍA</div></div><img src='img/AdobeStock_143965761.png'></div><div><div class='textCD'><div class='insideT' id='center'>DERECHO LABORAL</div></div><img src='img/AdobeStock_93328664.png'></div><div><div class='textCD'><div class='insideT' id='center'>DERECHO CONSTITUCIONAL</div></div><img src='img/AdobeStock_196632447.png'></div></div>").hide().fadeIn(999);
+     $('.Carousel').slick({
+  /*slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  pauseOnDotsHover: false,
+  dots: true,
+    */
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  infinite: true,
+	dots: true,
+	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 3000,
+  pauseOnHover:false,
+ });
+  //$('.Carousel').slick({
+  /*slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  pauseOnDotsHover: false,
+  dots: true,
+    
+  infinite: true,
+	dots: true,
+	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	fade: true,
+	fadeSpeed: 1000*/
+        
+});
+  
+      //$('.slick-next').hide();
     });  
           $("#btnN").click(function(){
       
       $( "#content" ).empty();
-        $("#content").append("<div id='about'><div id='textM'>Destacarnos en el sector como una firma<br/>multidisciplinaria líder, generando soluciones confiables<br/>para la toma de decisiones, planeación estratégica y<br/>optimización de recursos de nuestros clientes,<br/>contribuyendo al logro de sus objetivos.<br/><br/><h2>___________________</h2><h1>NUESTRA MISIÓN</h1></div><img src='img/AdobeStock_211254592.png'><div id='textV'><h1>NUESTRA VISIÓN</h1><h2>___________________</h2><br/>Ser una rifma vanguardista, lider, de alto prestigio y<br/> reconocimiento, creando soluciones funcionales y <br/>prácticas con la más alta calidad, ofreciendo un servicio<br/>oportuno y confiable.</div><img src='img/AdobeStock_254208065.png'> </div>").hide().fadeIn(999);
+        $("#content").append("<div id='about'><div id='textM'>Destacarnos en el sector como una firma<br/>multidisciplinaria líder, generando soluciones confiables<br/>para la toma de decisiones, planeación estratégica y<br/>optimización de recursos de nuestros clientes,<br/>contribuyendo al logro de sus objetivos.<br/><br/><h1>NUESTRA MISIÓN</h1></div><img src='img/AdobeStock_211254592.png'><div id='textV'><h1>NUESTRA VISIÓN</h1><br/>Ser una rifma vanguardista, lider, de alto prestigio y<br/> reconocimiento, creando soluciones funcionales y <br/>prácticas con la más alta calidad, ofreciendo un servicio<br/>oportuno y confiable.</div><img src='img/AdobeStock_254208065.png'> </div>").hide().fadeIn(999);
     }); 
           $("#btnS").click(function(){
      
       $( "#content" ).empty();
-        $("#content").append("<div id='titleS'>SERVICIOS<br/>____________</div><div id='textSU'><div class='boxT'>CONTABLES</div><div class='boxT'>ASESORÍA PATRIMONIAL</div><div class='boxT'>FIDEICOMISOS</div></div><div id='textSD'><div class='boxTD'>DERECHO GISCAL Y ASESORÍA</div><div class='boxTD'>DERECHO LABORAL</div><div class='boxTD'>DERECH CONSTITUCIONAL</div></div><img src='img/AdobeStock_243092819.png'><div class='izqS'><div class='textIS'>Registros de diario, asientos contables de ingresos y<br/>egresos, conciliaciones bancarias, preparación de estados<br/>financieros, regularización de contabilidades, interpretación<br/>y análisis de situación financiera, declaración informativa<br/>múltiple, declaraciones de pagos provisionales, declaración<br/>informativa de operaciones con terceros, declaración anual,<br/>dictaminación de IMSS y SAT, auditorías internas, avisos y<br/>administración del sistema SIROC para construcción.<h1>________________<br/>CONTABLES</h1></div></div><div class='textD'><div class='textID'><h1>ASESORÍA PATRIMONIAL<br/>______________________</h1>Compra venta de inmuebles, compra venta de empresas,<br/>arrendamientos, constitución de personas morales, Banca<br/>privada, Registro de marcas, Valuación de activos.</div></div><div class='textFS'>Construción de fideicomisos .<br/><h1>FIDEICOMISOS</h1></div><img src='img/AdobeStock_236536932.png'><img src='img/AdobeStock_201815506.png'>").hide().fadeIn(999);
+        $("#content").append("<div id='titleS'>SERVICIOS<br/></div><div id='textSU'><div class='boxT'>CONTABLES</div><div class='boxT'>ASESORÍA PATRIMONIAL</div><div class='boxT'>FIDEICOMISOS</div></div><div id='textSD'><div class='boxTD'>DERECHO GISCAL Y ASESORÍA</div><div class='boxTD'>DERECHO LABORAL</div><div class='boxTD'>DERECH CONSTITUCIONAL</div></div><img src='img/AdobeStock_243092819.png'><div class='izqS'><div class='textIS'>Registros de diario, asientos contables de ingresos y<br/>egresos, conciliaciones bancarias, preparación de estados<br/>financieros, regularización de contabilidades, interpretación<br/>y análisis de situación financiera, declaración informativa<br/>múltiple, declaraciones de pagos provisionales, declaración<br/>informativa de operaciones con terceros, declaración anual,<br/>dictaminación de IMSS y SAT, auditorías internas, avisos y<br/>administración del sistema SIROC para construcción.<br><br><br><br><h1>CONTABLES</h1></div></div><div class='textD'><div class='textID'><h1>ASESORÍA PATRIMONIAL</h1><br/><br/>Compra venta de inmuebles, compra venta de empresas,<br/>arrendamientos, constitución de personas morales, Banca<br/>privada, Registro de marcas, Valuación de activos.</div></div><div class='textFS'>Construción de fideicomisos .<br/><h1>FIDEICOMISOS</h1></div><img src='img/AdobeStock_236536932.png'><div class='textD'><div class='textIDF'>Elaboracion de contratos individuales y colectivos de <br/> trabajo, interposición de medios de defensa y negociación<br/>contra demandas laborales, despidos, actas administrativas,<br/>contingencias laborales, negociaciones sindicales, entre<br/>otras o cualquier otro de naturaleza laboral.</br><br/><h1>DERECHO LABORAL</h1></div></div><div class='izqS'><div class='textIDD'><h1>DERECHO FISCAL</br> Y ASESORÍA</h1></br>Asesoría e Interposición de medios de defensa contra actos<br/>de autoridades fiscales, de seguridad social y<br/>adnubustratucas (Recursos, juicio contencioso administrativo,<br/>amparo directo, amparo indirecto).<br/>Asesoría, seguimiento y desahogo a facultades de<br/>comprobación de autoridades fiscales, de seguridad social y<br/>administrativas.<br/>Asesorías y planificacíon de estrategias para optimizar los<br/>recursos Empresariales, personales y patrimoniales de<br/> personas físicas y personas jurídicas.</div></div><div id='textDC'>Interposición de medios de juicios constitucionales(amparo<br/>directo, amparo indirecto) contra violaciones a Derechos<br/>humanos de personas físicas o personas jurídicas.<br/><br/><h1>DERECHO CONSTITUCIONAL</h1></div><img src='img/AdobeStock_201815506.png'>").hide().fadeIn(999);
     }); 
-      });  
+        
+       $("#btnC").click(function(){
+     
+      $( "#content" ).empty();
+        $("#content").append("  <div id='form'><div class='tittleF'><h1>CONTÁCTANOS</h1></div><br><form action=''>NOMBRE<br><input type='text' name='firstname' value='Nombre'><br>E-MAIL<br><input type='text' name='lastname' value='E-mail'><br>TELÈFONO<br><input width: 50%; type='text' name='lastname' value='Telèfono'><br><br>MENSAJE<br><textarea rows='10' cols='50' name='comment' form='usrform'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</textarea><br><button class='send'>ENVIAR</button></form></div>").hide().fadeIn(999);
+    });  
+     
+      
+      
+  
     /*
      var targetDiv = document.getElementById('content');
         var htmlContent = '';
@@ -168,6 +289,8 @@ function scrollFunction() {
           targetDiv.innerHTML = htmlContent;
         }*/
     
+      
+      
 </script>
   </body>
 </html>

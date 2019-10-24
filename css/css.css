@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff2') format('woff2'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 #menu{
     text-align: left;
@@ -33,7 +53,7 @@ width: -webkit-fill-available;
 #contentD
 {
 
-    background-color: #FEE1A1;
+    background-color: #f0d4a4;
     display: inline-block;
     width: 100%;
 }
@@ -41,6 +61,23 @@ width: -webkit-fill-available;
 #TextC
 {
 position:absolute;
+}
+.textCD
+{
+padding-top: 2%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+padding-left: 500px;
+}
+.insideT
+{
+border: 2px solid white;
+    padding: 50px;
+}
+.Carousel
+{
+
 }
 #CDL
 {
@@ -55,7 +92,7 @@ text-align: left;
     margin-left: 45%;
     font-size: medium;
     font-weight: bold;
-    color: darkslateblue;
+    color: #103464;
 
 }
 
@@ -84,8 +121,9 @@ background-color: #000080;
     color: white;
     text-align: left;
     padding: 13%;
-    background-color: midnightblue;
+    background-color: #103464;
     font-size: 15px;
+font-family: 'OpenSans';
 }
 
 #textV
@@ -97,6 +135,7 @@ background-color: white;
     padding: 13%;
     right: 0%;
     bottom: -95%;
+font-family: 'OpenSans';
 }
 #titleS
 {
@@ -120,14 +159,15 @@ width: 100%;
 }
 .boxT
 {
-color: white;
-width: 160px;
+       color: white;
+    width: 160px;
     height: 80px;
-    padding: 20px;
-    border: 3px solid white;
+    padding: 19px;
+    border: 2px solid white;
     display: inline;
     font-size: 44px;
-    margin: 47px;
+    margin: 172px;
+    font-family: 'BebasNeue';
 }
 .boxTD
 {
@@ -135,10 +175,11 @@ color: white;
     width: 160px;
     height: 80px;
     padding: 20px;
-    border: 3px solid white;
+    border: 2px solid white;
     display: inline;
-    font-size: 32px;
-    margin: 75px;
+    font-size: 44px;
+    margin: 122px;
+    font-family: 'BebasNeue';
 }
 .izqS
 {
@@ -152,7 +193,7 @@ color: white;
 .textD
 {
 width: 50%;
-    background-color: midnightblue;
+    background-color: #103464;
     padding-top: 15%;
     padding-bottom: 25.5%;
     float: right;
@@ -160,20 +201,382 @@ width: 50%;
 }
 .textIS
 {
-     padding-top: 25%;
+     padding-top: 5%;
     text-align: left;
-    padding-left: 20%;
+    padding-left: 8%;
+    position: absolute;
+font-family: 'OpenSans';
 } 
 .textID
 {
-text-align: right;
-    padding-right: 28%;
+    text-align: right;
+    right: 220px;
+    position: absolute;
+    bottom: -30%;
+font-family: 'OpenSans';
+
+}
+.textIDD
+{
+padding-left: 10%;
+    text-align: left;
+    bottom: -227%;
+    position: absolute;
+    font-family: 'OpenSans';
+
+}
+.textIDD h1
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+border-bottom: 3px solid #f0d4a4;
+}
+.textIS h1
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+border-top: 3px solid #f0d4a4;
+position: absolute;
+}
+.textID h1
+
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+border-bottom: 3px solid #f0d4a4;
+}
+#textM h1
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+border-top: 3px solid #f0d4a4;
+height: 100%;
+position: absolute;
+}
+#textV h1
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+border-bottom: 3px solid #f0d4a4;
+position: absolute;
+top: 60%;
+    right: 27%;
+}
+.textFS h1
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+border-top: 3px solid #f0d4a4;
+}
+
+.textIDF h1
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+border-top: 3px solid #f0d4a4;
+}
+.insideT
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+}
+
+#titleS
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+}
+
+.textIDF
+{
+    text-align: right;
+    padding-right: 15%;
+    position: absolute;
+    bottom: -235%;
+    right: 0%;
+font-family: 'OpenSans';
 }
 .textFS
 {
 position: absolute;
     bottom: -169%;
-    padding: 14%;
+    padding: 17%;
     right: 0px;
     background-color: white;
+    font-family: 'OpenSans';
+    text-align: right;
 }  
+#center
+{
+padding-left: 250px;
+    padding-right: 250px;
+}
+.slick-next{
+  display: none !important;
+}
+#textDC
+{
+position: absolute;
+    bottom: -330%;
+    padding: 12%;
+    padding-left: 8%;
+    background-color: #103464;
+    color: white;
+    font-family: 'OpenSans';
+}
+#textDC h1
+{
+font-size: 70px;
+font-family: 'BebasNeue';
+border-top: 3px solid #f0d4a4;
+}
+ul li {
+
+display: block;
+      width: 18px;
+      height: 18px;
+      text-decoration: none;
+      background-color: white;
+      border: 3px solid white;
+      border-radius: 50%;
+}
+#form
+{
+text-align: left;
+    padding: 11%;
+    padding-left: 25%;
+background-color: #103464;
+color: white;
+font-family: 'OpenSans';
+}
+#form h1
+{
+    font-size: 70px;
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    font-family: 'BebasNeue';
+    /* padding-left: 27%; */
+    border-bottom: 3px solid #f0d4a4;
+}
+#form input 
+{
+border: 2px solid white;
+    width: 80%;
+    padding: 10px;
+    background-color: #103464;
+}
+#form textarea
+{
+width: 80%;
+    height: 211px;
+background-color: #103464;
+
+border: 2px solid white;
+
+    padding: 10px;
+   
+}
+#form button
+{
+border: 2px solid white;
+    width: 8%;
+    position: absolute;
+    padding: 10px;
+    background-color: #103464;
+    left: 46%;
+    top: 80%;
+}
+#btnI
+{
+ background: none!important;
+  border: none;
+  color: #103464;
+font-family: 'OpenSans';
+}#btnN
+{
+ background: none!important;
+  border: none;
+  color: #103464;
+font-family: 'OpenSans';
+}#btnS
+{
+ background: none!important;
+  border: none;
+  color: #103464;
+font-family: 'OpenSans';
+}
+#btnC
+{
+ background: none!important;
+  border: none;
+  color: #103464;
+font-family: 'OpenSans';
+}
+#centerD
+{
+
+}
+
+
+#menuM
+{
+    width: 100%;
+    height: 135px;
+    background-color: white;
+    text-align: center;
+}
+#menuM img
+{
+    height: 100px;
+    padding-top: 20px;
+}
+#contentM img
+{
+
+width: -webkit-fill-available;
+
+}
+
+#contentDM
+{
+background-color: #f0d4a4;
+}
+
+#CDLM {
+
+    
+    margin-left: 5%;
+    text-align: center;
+}
+
+.logoDM
+{
+width: 50%;
+}
+
+#CDRM {
+
+    /* margin: 1%; */
+    
+    margin-left: 3%;
+    font-size: 35px;
+    font-weight: bold;
+    color: #103464;
+    text-align: center;
+}
+#CDRM img
+{
+width: 5%;
+}
+.textCDM
+{
+position: absolute;
+    
+    color: white;
+    padding-top: 7%;
+    width: 3%;
+}
+
+.textIAP
+{
+width: 162%;
+    border: 2px solid white;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    font-size: 76px;
+    font-family: 'BebasNeue';
+}
+
+.textIC
+{
+    border: 2px solid white;
+    padding-left: 30%;
+    padding-right: 30%;
+    position: absolute;
+    font-size: 90px;
+    font-family: 'BebasNeue';
+}
+
+.textIF
+{
+border: 2px solid white;
+    padding-left: 30%;
+    padding-right: 30%;
+    position: absolute;
+    font-size: 80px;
+    font-family: 'BebasNeue';
+}
+.textIDFA
+{
+
+    width: 217%;
+    border: 2px solid white;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: absolute;
+    font-size: 70px;
+    font-family: 'BebasNeue';
+}
+
+.textIDL
+{
+width: 190%;
+    border: 2px solid white;
+    padding-left: 30%;
+    padding-right: 30%;
+    position: absolute;
+    font-size: 85px;
+    font-family: 'BebasNeue';
+}
+
+.textIDC
+{
+width: 240%;
+    border: 2px solid white;
+    padding-left: 25%;
+    padding-right: 25%;
+    position: absolute;
+    font-size: 86px;
+    font-family: 'BebasNeue';
+}
+
+
+#centerCM
+{
+
+padding-left: 65%;
+
+}
+#centerAM
+{
+padding-left: 50.5%;
+}
+#centerFM
+{
+    padding-left: 60.5%;
+}
+
+#centerDM
+{
+    padding-left: 24%;
+}
+#centerDLM
+{
+padding-left: 36%;
+}
+#centerDCM
+{
+padding-left: 8.3%;
+}
+.deploid
+{
+
+width: 100%;
+    height: 133%;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    background-color: cornflowerblue;
+}
